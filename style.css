@@ -1,0 +1,28 @@
+.base{
+text-align: left;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+    
+    margin: 25px auto; /* Center the form horizontally */
+    padding-top: 5px;
+    padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 0;
+    box-shadow: black 25px 25px 25px;
+    max-width: 300px; /* Set a maximum width */
+    width: 100%; /* Ensure it takes full width up to the max-width */
+}
+.base label{
+    text-align: left;
+    display: block;
+    margin: 5px; 
+    
+} 
+.base input[type=button]{
+    background-color: blueviolet;
+    font-weight: bolder;
+    border: 10px solid blueviolet;
+    border-radius: 20px;
+    box-shadow: black 5px 5px 5px;
+}
